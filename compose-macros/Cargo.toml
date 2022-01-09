@@ -8,8 +8,8 @@ codec = { package = 'parity-scale-codec', version = "2.0.0", default-features = 
 log = { version = "0.4", default-features = false }
 
 # substrate dependencies
-sp-runtime = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sp-runtime = { version = "4.0.0-dev", default-features = false, git = "https://github.com/librelois/substrate.git", branch = "duniter-monthly-2022-01" }
+sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/librelois/substrate.git", branch = "duniter-monthly-2022-01" }
 
 # local deps
 ac-primitives = { path = "../primitives", default-features = false }
